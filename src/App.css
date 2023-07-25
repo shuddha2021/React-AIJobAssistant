@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  margin: 2rem;
+  position: relative;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Adjust styles for the job list */
+.job-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-position: outside;
+}
+
+.job-list li {
+  width: 50%; /* Adjusted width */
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+/* Add this to your existing CSS file or create a new CSS file for Chatbot styling */
+.chatbot {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* Add the following styles for proper positioning */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.chatbot-header {
+  background-color: #f0f0f0;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chatbot-messages {
+  height: 300px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.message {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.message-text {
+  word-wrap: break-word;
+}
+
+.user {
+  background-color: #d5eafc;
+  text-align: right;
+}
+
+.bot {
+  background-color: #f1f1f1;
+}
+
+.chatbot-input {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chatbot-input button {
+  margin-left: 8px;
+}
+
+/* Add styles for minimize and maximize buttons */
+.minimize-button,
+.maximize-button {
+  font-size: 14px;
+  margin-left: 5px;
+}
