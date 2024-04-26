@@ -12,6 +12,9 @@ The AI Job Recommendation App is an innovative and cutting-edge web application 
 - **Interactive AI-Powered Chatbot**: Engage with an intelligent chatbot assistant for real-time guidance, tips, and support throughout the entire job application process.
 - **Job Application Tracker**: Stay organized and on top of your job applications with a built-in tracker that provides real-time updates on the status of each application.
 
+<img width="1729" alt="Screenshot 2024-04-26 at 2 10 14 PM" src="https://github.com/shuddha2021/React-AIJobAssistant/assets/81951239/57af623f-156d-43c2-ad43-07d86350974e">
+
+
 ## Technologies Used
 
 - **React**: A powerful JavaScript library for building user interfaces, ensuring a smooth and responsive user experience.
